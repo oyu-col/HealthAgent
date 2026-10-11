@@ -1,0 +1,362 @@
+{
+  "schema_version": 1,
+  "phase": 0,
+  "recorded_at": "2026-10-03T12:03:48.944Z",
+  "local_date": "2026-10-03",
+  "timezone": "Asia/Shanghai",
+  "reference_root": "D:/AgentFiles/deer-flow",
+  "git_commit": null,
+  "git_status": "unavailable: local directory is not a Git worktree",
+  "method": "Static source inspection. Hashes identify local files, not a release or commit. No application execution.",
+  "observed_lockfile_versions": {
+    "langchain": "1.3.14",
+    "langchain-core": "1.4.9",
+    "langgraph": "1.2.9",
+    "langgraph-checkpoint": "4.2.0",
+    "langgraph-checkpoint-sqlite": "3.1.1"
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "cbe4f78059ae4b397c4a251d97c766739a08606ddd13da763643ed18e30b9bdc",
+      "bytes": 15092,
+      "lines": 242
+    },
+    {
+      "path": "HEALTH_AGENT_SPEC.md",
+      "sha256": "cf025dfecef211fbe558447e57dde86a950475cd10cd77d31a07890641076db3",
+      "bytes": 23115,
+      "lines": 1692
+    },
+    {
+      "path": "README.md",
+      "sha256": "e9b6834618147371a5b562a934aa9638b23ca98fbee5446dc7e375d1ef5c53a8",
+      "bytes": 197522,
+      "lines": 2349
+    },
+    {
+      "path": "backend/AGENTS.md",
+      "sha256": "3763ba86af2287dc772a4a84613caf42e410c4cdb0882c40e74045786bbe3ffa",
+      "bytes": 28318,
+      "lines": 399
+    },
+    {
+      "path": "backend/app/gateway/AGENTS.md",
+      "sha256": "721ce65a90581025ef34926e347204f92ff2ff170b204f0e6a8120c783dbb47a",
+      "bytes": 49130,
+      "lines": 228
+    },
+    {
+      "path": "backend/app/gateway/app.py",
+      "sha256": "f9b39940c23edc161ec1f6ab70f66d5b2c6d907829d535cbbbf738d13862c4a4",
+      "bytes": 53112,
+      "lines": 1161
+    },
+    {
+      "path": "backend/app/gateway/deps.py",
+      "sha256": "accf7a24b86148125a3deadd96c716b5f4fb0f7730c9ae0beb32537e6b50ced0",
+      "bytes": 42511,
+      "lines": 932
+    },
+    {
+      "path": "backend/app/gateway/routers/thread_runs.py",
+      "sha256": "73138fa3aeee3062ade8b77f1d56b84dc7e7e809b9e3948095a9e38f7dd3d62c",
+      "bytes": 79455,
+      "lines": 1874
+    },
+    {
+      "path": "backend/app/gateway/routers/threads.py",
+      "sha256": "282ada876aba98ababfb6ed742916bc9a4001c4e3eb568bf98db90757eb3d820",
+      "bytes": 90074,
+      "lines": 1914
+    },
+    {
+      "path": "backend/app/gateway/services.py",
+      "sha256": "5ef7a3970def0974fdf3f9fcffe0aa182a69def2d8e9aca323a4de0e04af1aa2",
+      "bytes": 113455,
+      "lines": 2460
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/AGENTS.md",
+      "sha256": "976bb306084b0892e15492425248f835b2be5e6591e5c4f02f1b7c32a8b52cf6",
+      "bytes": 5865,
+      "lines": 52
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/lead_agent/agent.py",
+      "sha256": "5a2f2c2f7c52a74286f77982d2e8356e80dd8dbe242fd5b1a73047ee6898e395",
+      "bytes": 63374,
+      "lines": 1316
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/lead_agent/prompt.py",
+      "sha256": "39c91125f0b6dc072f6ec4dcfe98110a8b34fe8942b2882f04eb48a55ac70966",
+      "bytes": 58464,
+      "lines": 1139
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/AGENTS.md",
+      "sha256": "61fe2b809d168c9ccd598a7230bc6863680715a625ea50137505ee391997f9e4",
+      "bytes": 19312,
+      "lines": 371
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/memory/manager.py",
+      "sha256": "c069b769e03b500c4c0895ac8c5ca8ac4f0e7e268e184cb66c09f280245c70d2",
+      "bytes": 46614,
+      "lines": 1034
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/dynamic_context_middleware.py",
+      "sha256": "11c41c3135dbc8b9749379162d137fb9336de980065e57ce33f78cbf514c656b",
+      "bytes": 38560,
+      "lines": 807
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/loop_detection_middleware.py",
+      "sha256": "31d52620aa4889f25036527d7712d6ea6d55097153a64fe6aeed8b533f50dc62",
+      "bytes": 46124,
+      "lines": 969
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/memory_middleware.py",
+      "sha256": "774db3f312a9d080ad3d6327436a75980c3500f44441c58c3a67a7b9c8f952ca",
+      "bytes": 10614,
+      "lines": 229
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/skill_activation_middleware.py",
+      "sha256": "929bada169e49463600c6df3b3f55e9acefd445fb4736e8879b29c3a8b0efd90",
+      "bytes": 30478,
+      "lines": 623
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/middlewares/tool_error_handling_middleware.py",
+      "sha256": "33034e84f1911e1e2ab86549fd1924e4fd542fa2c6bf7efabed6e524890dd6d7",
+      "bytes": 32758,
+      "lines": 660
+    },
+    {
+      "path": "backend/packages/harness/deerflow/agents/thread_state.py",
+      "sha256": "04e10d910f721f6ff9996b0b8bdef09c9560ed4234678712c4ce3d514d7b796f",
+      "bytes": 17329,
+      "lines": 468
+    },
+    {
+      "path": "backend/packages/harness/deerflow/models/factory.py",
+      "sha256": "60173c2d6dfd201bc2f70a935bdb1d5b027f85f9cd4d6149e34170bbdaa47b01",
+      "bytes": 30739,
+      "lines": 556
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/thread_meta/model.py",
+      "sha256": "f2af019997c862fa33ca6285ed68ebb68c6475768b3be57d01c6651da11a5579",
+      "bytes": 1162,
+      "lines": 26
+    },
+    {
+      "path": "backend/packages/harness/deerflow/persistence/thread_meta/sql.py",
+      "sha256": "b1193daeb08e3c79670b409d487df821afc2104d55bd9eafc5e7299b470fe391",
+      "bytes": 18536,
+      "lines": 408
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/AGENTS.md",
+      "sha256": "d519cea52ea3c219b5fc83b301c689e260938ca43f5065e4fbf6082964379d85",
+      "bytes": 25061,
+      "lines": 164
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/checkpoint_state.py",
+      "sha256": "c40dbee1cacb74d90615247e3de7cb33b79aed53a5b8352a5636148a0436185a",
+      "bytes": 8539,
+      "lines": 210
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/checkpointer/async_provider.py",
+      "sha256": "5191130a7c779e493b1a677a6d7b48c79b30386008f1c46f7e15740e230da466",
+      "bytes": 9737,
+      "lines": 258
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/journal.py",
+      "sha256": "529e143025be8bf066f7259a36d557d7053e04c2cb5af2ad86fc6e051fad2ee4",
+      "bytes": 61328,
+      "lines": 1385
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/manager.py",
+      "sha256": "f35fb0a9097feef04ec9413183f771c51282ed6c2307590f12f10b10e526712b",
+      "bytes": 110567,
+      "lines": 2425
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/runs/worker.py",
+      "sha256": "0ede7327cbc233a392a7543cbea187edb1cfe8ddb84a1ba4fbf57105df0d55df",
+      "bytes": 145237,
+      "lines": 3108
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_bridge/base.py",
+      "sha256": "75394fed2757ae1b5ccb0df3ba288e677bf91c83e3187acf638659cb0021abc6",
+      "bytes": 4256,
+      "lines": 116
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_bridge/memory.py",
+      "sha256": "bd6ad363ee1c94857c09417401a74ae899a93b3ef3085ab566400e8722938af1",
+      "bytes": 7621,
+      "lines": 193
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_bridge/redis.py",
+      "sha256": "b0d9985312043b869f7d6c28f7c009a6b8180a56383d607121b467cb250032ea",
+      "bytes": 16214,
+      "lines": 385
+    },
+    {
+      "path": "backend/packages/harness/deerflow/runtime/stream_modes.py",
+      "sha256": "77ba1ef5a1195751bff2c424e51d95addd454d8d113f118905681239d80d60ba",
+      "bytes": 1539,
+      "lines": 48
+    },
+    {
+      "path": "backend/packages/harness/deerflow/skills/AGENTS.md",
+      "sha256": "898417f13c4b756cb0a5723a1223a646ab4cd15e6ef3ea3f0fa64ccda3de4606",
+      "bytes": 28060,
+      "lines": 42
+    },
+    {
+      "path": "backend/packages/harness/deerflow/skills/catalog.py",
+      "sha256": "f3ba87c760120562a1e2e43bf5ff016bfd25fcb752e05f34df80203dd02cf458",
+      "bytes": 7143,
+      "lines": 178
+    },
+    {
+      "path": "backend/packages/harness/deerflow/skills/parser.py",
+      "sha256": "2ff7c519c3a3f2409c89e614238ee4bcbc4393a104251254f722f7abd2c6f6a9",
+      "bytes": 10884,
+      "lines": 285
+    },
+    {
+      "path": "backend/packages/harness/deerflow/skills/storage/skill_storage.py",
+      "sha256": "3fd36a712c092f9ddb73fc08f027f5729caf62cbd687494f9addb383f36a05bc",
+      "bytes": 15957,
+      "lines": 357
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/AGENTS.md",
+      "sha256": "009147efda31f65e2d89961601c2cddda3625736b839abe67ef9eeaa5dfc2e13",
+      "bytes": 42200,
+      "lines": 56
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/executor.py",
+      "sha256": "6126008f36cc81f595c4f3c3e999a5176779c3d86580bf2b786d654672648a51",
+      "bytes": 102731,
+      "lines": 2098
+    },
+    {
+      "path": "backend/packages/harness/deerflow/subagents/registry.py",
+      "sha256": "a4aae65c051fbe4facbf9bbfeb4d35afa5a9acee3b287a088b0fe0c6bd433539",
+      "bytes": 10729,
+      "lines": 244
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/AGENTS.md",
+      "sha256": "c0c9220fa1bb9c650ab65ab1575d4f8071e4881f8da365cc7f2fb305893faf3e",
+      "bytes": 13380,
+      "lines": 75
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/clarification_tool.py",
+      "sha256": "c84d8f5780803e3346f95a9d6618de01043336e0f8bffe0d2a5e98830d371ad8",
+      "bytes": 5023,
+      "lines": 95
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/builtins/task_tool.py",
+      "sha256": "ae6b1ac92afad29890053599031c1465e29627be56b5552dee5d4421d6eb3c0f",
+      "bytes": 63211,
+      "lines": 1279
+    },
+    {
+      "path": "backend/packages/harness/deerflow/tools/tools.py",
+      "sha256": "22e596aea0a823751f148d3deada3053cff0a582407b18f3308f1fd623b95327",
+      "bytes": 14448,
+      "lines": 318
+    },
+    {
+      "path": "backend/packages/harness/pyproject.toml",
+      "sha256": "40d2db7f88a3de9830b174c5643c67f620543c458c9fb79f2ed035f226d64814",
+      "bytes": 4826,
+      "lines": 118
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "sha256": "5773d053c4b1e63556604eaddf726c6bd5ba9e6a2387e815b0b09efd7e3434ac",
+      "bytes": 5122,
+      "lines": 114
+    },
+    {
+      "path": "backend/uv.lock",
+      "sha256": "29445768895188d558b5bf8d58a3aeb5c016dbf8b9e44104e790531cfcd6b1c1",
+      "bytes": 892243,
+      "lines": 5426
+    },
+    {
+      "path": "docker/nginx/nginx.conf",
+      "sha256": "839ad6b5bfb79d62edfe2d87b173e8ddc77bd6540ca0e5ca7ae3a0e17b389462",
+      "bytes": 13588,
+      "lines": 337
+    },
+    {
+      "path": "frontend/AGENTS.md",
+      "sha256": "5d0208d1aefbcad31b3d66ec6f237e84519dd213284618320e7f80b0d537c014",
+      "bytes": 22578,
+      "lines": 303
+    },
+    {
+      "path": "frontend/package.json",
+      "sha256": "798d5b42df859e3cc52b11a64f1557a7b615100f74ae1e0278315db8344e08d2",
+      "bytes": 4401,
+      "lines": 136
+    },
+    {
+      "path": "frontend/src/AGENTS.md",
+      "sha256": "fe2f18e0fff62bbedcdb51c131f79c44adb1a13ab7148556f47d60ca430df3c9",
+      "bytes": 41342,
+      "lines": 199
+    },
+    {
+      "path": "frontend/src/components/workspace/chats/chat-page.tsx",
+      "sha256": "99293e03e153bd2d55b450d5fa3dc889822c8640810ead1d0341e5095f1f5675",
+      "bytes": 26901,
+      "lines": 688
+    },
+    {
+      "path": "frontend/src/core/api/api-client.ts",
+      "sha256": "ba97c32c8462acb1b6331585ecb940e62e1f2178a02f754e270cffd2fe8588ad",
+      "bytes": 22473,
+      "lines": 645
+    },
+    {
+      "path": "frontend/src/core/api/stream-mode.ts",
+      "sha256": "fa05e29d0c7c5f3cc86a889715beae119f66b97af24df257c0f899ccc9836f51",
+      "bytes": 3020,
+      "lines": 113
+    },
+    {
+      "path": "frontend/src/core/config/index.ts",
+      "sha256": "cbe795e67e4358e976ecfce1762f3dd5d17be78ad2fec27cbc369d82fb69a26d",
+      "bytes": 1061,
+      "lines": 41
+    },
+    {
+      "path": "frontend/src/core/threads/hooks.ts",
+      "sha256": "2a40d7f0c7516d9fdca353948bd3dbbfb673c1665a0ec75e0739078b0dcb5c2a",
+      "bytes": 129290,
+      "lines": 3862
+    }
+  ]
+}

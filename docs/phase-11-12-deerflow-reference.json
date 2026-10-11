@@ -1,0 +1,21 @@
+{
+  "reviewed_at": "2026-10-11",
+  "repository": "../deer-flow",
+  "reference_only": true,
+  "repository_modified": false,
+  "git_metadata_available": false,
+  "files": [
+    {
+      "path": "docs/experiments/task-continuity-20260912/task_eval.py",
+      "sha256": "654660ea28f10f8e94172d0c26e06ccfc5a0d28ab71bf4fb78a40c7befdf7746",
+      "adopted": "Independent expected artifact/state validation, execution budgets and trace-based task diagnosis",
+      "adaptation": "HealthAgent uses actual SQL health records, SQL-verified citations and existing LangGraph Runtime; no copied agent loop"
+    },
+    {
+      "path": "skills/public/skill-creator/scripts/aggregate_benchmark.py",
+      "sha256": "43da1f7801e20656d07cbc72001a563884f41d32080cae291be5d48c51e2e635",
+      "adopted": "Repeated-run statistics and before/after result presentation",
+      "adaptation": "Explicit null denominators and strict sample/protocol fingerprint comparison; read as reference code, no skill invoked"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "phases": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "recorded_at": "2026-10-03T14:06:41Z",
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.10",
+    "git": "not a Git worktree"
+  },
+  "executed": {
+    "locked_offline_install": {
+      "command": "uv sync --locked --offline --group dev --link-mode copy",
+      "status": "passed",
+      "resolved_packages": 71
+    },
+    "pytest": {
+      "command": ".venv/Scripts/python.exe -m pytest -q",
+      "passed": 95,
+      "skipped": 1,
+      "failed": 0,
+      "errors": 0,
+      "duration_seconds": 21.38,
+      "skip_reason": "Live provider requires explicit --run-live"
+    },
+    "ruff": {
+      "check": "passed",
+      "format_check": "passed",
+      "python_files": 67
+    },
+    "http_smoke": {
+      "command": ".venv/Scripts/python.exe scripts/smoke.py",
+      "status": "passed",
+      "mode": "fake",
+      "port": 49384,
+      "trace_id": "dad11524-c269-4b94-b97f-1ad04942d12c",
+      "checks": [
+        "healthz",
+        "openapi",
+        "chat",
+        "trace_header",
+        "thread_history",
+        "memory_extraction",
+        "document_index",
+        "tcp_sse",
+        "memory_delete",
+        "graceful_shutdown"
+      ],
+      "child_process_stopped": true,
+      "port_closed": true,
+      "temporary_database_cleaned": true
+    },
+    "phase_milestones": [
+      {
+        "phase": 2,
+        "passed": 75,
+        "skipped": 1
+      },
+      {
+        "phase": 3,
+        "passed": 79,
+        "skipped": 1
+      },
+      {
+        "phase": 4,
+        "passed": 83,
+        "skipped": 1
+      },
+      {
+        "phase": 5,
+        "passed": 86,
+        "skipped": 1
+      },
+      {
+        "phase": 6,
+        "initial_passed": 90,
+        "final_passed": 95,
+        "skipped": 1
+      }
+    ],
+    "sdk_protocol_tests": {
+      "live_network": false,
+      "transport": "httpx.MockTransport",
+      "chat_completion": true,
+      "tool_call_observation": true,
+      "incremental_sse": true
+    }
+  },
+  "static_checks": {
+    "reference_files_checked": 57,
+    "reference_files_changed": [],
+    "spec_byte_identical": true,
+    "no_deerflow_import_or_dependency": true,
+    "local_markdown_links": 82,
+    "broken_links": [],
+    "delivery_sections_complete": true,
+    "missing_delivery_sections": []
+  },
+  "corrections_during_validation": [
+    "Removed explicit ChatOpenAI streaming=False so native graph callbacks can request incremental SDK output; protocol regression test added.",
+    "Strengthened recovery test to assert the record exists before injecting the final-answer failure.",
+    "First extended HTTP smoke passed functional assertions but failed Windows SQLite temporary cleanup. Added graceful server shutdown and verified exit, closed port, and cleanup before reporting success."
+  ],
+  "not_executed": [
+    "Live provider call",
+    "Live neural semantic embeddings",
+    "Medical quality evaluation",
+    "Domain benchmark",
+    "Phase 7 multi-agent",
+    "Phase 8 full reliability",
+    "Phase 9 web frontend"
+  ],
+  "limitations": [
+    "Single worker only",
+    "Local hash embeddings are lexical vectors, not neural semantic embeddings",
+    "Explicit allowlist preference extraction",
+    "No OCR",
+    "No persisted SSE event replay",
+    "No schema migration framework"
+  ]
+}

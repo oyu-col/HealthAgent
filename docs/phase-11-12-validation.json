@@ -1,0 +1,460 @@
+{
+  "recorded_at": "2026-10-11",
+  "status": "engineering_complete_online_evaluation_blocked",
+  "project": "HealthAgent",
+  "phases": [
+    11,
+    12
+  ],
+  "git_metadata_available": false,
+  "user_confirmed_keep_provider_failure": true,
+  "backend": {
+    "skip_reason": "Legacy live smoke requires --run-live; separate real benchmark connection attempts were executed",
+    "passed": 352,
+    "skipped": 1,
+    "seconds": 43.71,
+    "command": ".venv/Scripts/python.exe -m pytest -q --basetemp=.pytest-tmp-phase12"
+  },
+  "lint": {
+    "ruff_format": "passed",
+    "python_files": 98,
+    "scope": "backend/app, backend/scripts, backend/tests, benchmark excluding runs",
+    "ruff_check": "passed"
+  },
+  "frontend": {
+    "browser_seconds": 8.4,
+    "lint": "passed",
+    "change": "healthz phase fixture 10 to 12",
+    "browser_tests": 10,
+    "unit_tests": 33,
+    "production_ui_changed": false,
+    "build": "passed",
+    "typecheck": "passed"
+  },
+  "smoke": {
+    "api": "passed",
+    "real_browser_ui": "passed",
+    "mocked_api": false,
+    "model_mode": "fake",
+    "checks": [
+      "healthz",
+      "openapi",
+      "chat",
+      "trace_header",
+      "thread_history",
+      "memory_extraction",
+      "document_index",
+      "tcp_sse",
+      "memory_delete",
+      "persistent_trace",
+      "real_browser_ui",
+      "graceful_shutdown"
+    ]
+  },
+  "benchmark": {
+    "grader_digest": "9b5651f8be279f755f6f7e9d9ed7610b655e63aeefd71e51f0a3c125abfae234",
+    "comparison_report": "../benchmark/results/comparison-contract.json",
+    "baseline_report": "../benchmark/results/baseline-contract.json",
+    "candidate_report": "../benchmark/results/candidate-contract.json",
+    "case_count": 29,
+    "settings_digest": "60157d2f8a5a8996257c3e0de6a80f37557b9b3f4499f4e11f4b4879e7986dab",
+    "candidate_app_digest": "7887d49caeb75011ad7fc24bd1a50a99f135add2c1dd2ade3f5c2d7a7a90a216",
+    "baseline": {
+      "metrics": {
+        "task_success": {
+          "passed": 50,
+          "total": 58,
+          "value": 0.8620689655172413
+        },
+        "tool_selection": {
+          "passed": 0,
+          "total": 0,
+          "value": null
+        },
+        "tool_arguments": {
+          "passed": 0,
+          "total": 0,
+          "value": null
+        },
+        "retrieval_hit": {
+          "passed": 10,
+          "total": 14,
+          "value": 0.7142857142857143
+        },
+        "grounded_answer": {
+          "passed": 10,
+          "total": 14,
+          "value": 0.7142857142857143
+        },
+        "tool_execution": {
+          "passed": 54,
+          "total": 64,
+          "value": 0.84375
+        },
+        "tool_terminal_coverage": {
+          "passed": 64,
+          "total": 68,
+          "value": 0.9411764705882353
+        },
+        "recovery": {
+          "passed": 2,
+          "total": 4,
+          "value": 0.5
+        },
+        "loop": {
+          "passed": 4,
+          "total": 58,
+          "value": 0.06896551724137931
+        },
+        "unexpected_loop": {
+          "passed": 0,
+          "total": 54,
+          "value": 0.0
+        },
+        "tool_calls": {
+          "n": 58,
+          "mean": 1.1724137931034482,
+          "stddev": 0.7908513752537735,
+          "min": 0,
+          "max": 3
+        },
+        "agent_steps": {
+          "n": 58,
+          "mean": 3.2758620689655173,
+          "stddev": 1.5734116615930807,
+          "min": 0,
+          "max": 6
+        },
+        "latency_ms": {
+          "n": 58,
+          "mean": 367.96294827586206,
+          "stddev": 56.19771506074823,
+          "min": 303.606,
+          "max": 584.275
+        },
+        "agent_latency_ms": {
+          "n": 58,
+          "mean": 63.84996551724138,
+          "stddev": 38.04799958127552,
+          "min": 29.943,
+          "max": 321.99
+        },
+        "token_usage": {
+          "reported_total": null,
+          "complete": false
+        }
+      },
+      "failure_categories": {
+        "RAG Retrieval Error": 4,
+        "Safety Violation": 4,
+        "Tool Runtime Error": 4
+      },
+      "by_category": {
+        "ambiguous_input": {
+          "passed": 2,
+          "total": 2,
+          "value": 1.0
+        },
+        "loop_detection": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "missing_parameters": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "multi_agent": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "multi_tool": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "rag": {
+          "passed": 6,
+          "total": 10,
+          "value": 0.6
+        },
+        "recovery": {
+          "passed": 2,
+          "total": 4,
+          "value": 0.5
+        },
+        "safety": {
+          "passed": 6,
+          "total": 6,
+          "value": 1.0
+        },
+        "single_tool_query": {
+          "passed": 8,
+          "total": 8,
+          "value": 1.0
+        },
+        "tool_failure": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "tool_timeout": {
+          "passed": 0,
+          "total": 2,
+          "value": 0.0
+        },
+        "write_operation": {
+          "passed": 6,
+          "total": 6,
+          "value": 1.0
+        }
+      }
+    },
+    "inference": "Offline scripted engineering contract improvement only; no model planning, medical or performance improvement claimed",
+    "regressed": [],
+    "unchanged_failures": [
+      [
+        "rag_weak_word_overlap",
+        1
+      ],
+      [
+        "timeout_read_bounded",
+        1
+      ],
+      [
+        "recovery_write_unknown",
+        1
+      ],
+      [
+        "rag_weak_word_overlap",
+        2
+      ],
+      [
+        "timeout_read_bounded",
+        2
+      ],
+      [
+        "recovery_write_unknown",
+        2
+      ]
+    ],
+    "case_digest": "73b7048c0ce968e96269173de05c59e909ee3e40785b69d67e168e8bfcb8cd11",
+    "repeats": 2,
+    "mode": "contract",
+    "provider_profile_case_count": 22,
+    "baseline_app_digest": "9f3d84cdc3a6293498357dc4010ad02f54a31b0397afd40424da71454fdcbcd0",
+    "candidate": {
+      "metrics": {
+        "task_success": {
+          "passed": 52,
+          "total": 58,
+          "value": 0.896551724137931
+        },
+        "tool_selection": {
+          "passed": 0,
+          "total": 0,
+          "value": null
+        },
+        "tool_arguments": {
+          "passed": 0,
+          "total": 0,
+          "value": null
+        },
+        "retrieval_hit": {
+          "passed": 12,
+          "total": 14,
+          "value": 0.8571428571428571
+        },
+        "grounded_answer": {
+          "passed": 12,
+          "total": 14,
+          "value": 0.8571428571428571
+        },
+        "tool_execution": {
+          "passed": 54,
+          "total": 64,
+          "value": 0.84375
+        },
+        "tool_terminal_coverage": {
+          "passed": 64,
+          "total": 68,
+          "value": 0.9411764705882353
+        },
+        "recovery": {
+          "passed": 2,
+          "total": 4,
+          "value": 0.5
+        },
+        "loop": {
+          "passed": 4,
+          "total": 58,
+          "value": 0.06896551724137931
+        },
+        "unexpected_loop": {
+          "passed": 0,
+          "total": 54,
+          "value": 0.0
+        },
+        "tool_calls": {
+          "n": 54,
+          "mean": 1.1481481481481481,
+          "stddev": 0.8029438292103259,
+          "min": 0,
+          "max": 3
+        },
+        "agent_steps": {
+          "n": 54,
+          "mean": 3.2222222222222223,
+          "stddev": 1.5947444549341472,
+          "min": 0,
+          "max": 6
+        },
+        "latency_ms": {
+          "n": 58,
+          "mean": 287.59494827586207,
+          "stddev": 45.008185983572005,
+          "min": 215.451,
+          "max": 408.058
+        },
+        "agent_latency_ms": {
+          "n": 58,
+          "mean": 45.377655172413796,
+          "stddev": 14.953142561592223,
+          "min": 21.282,
+          "max": 97.589
+        },
+        "token_usage": {
+          "reported_total": null,
+          "complete": false
+        }
+      },
+      "failure_categories": {
+        "RAG Retrieval Error": 2,
+        "Safety Violation": 2,
+        "Tool Runtime Error": 4
+      },
+      "by_category": {
+        "ambiguous_input": {
+          "passed": 2,
+          "total": 2,
+          "value": 1.0
+        },
+        "loop_detection": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "missing_parameters": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "multi_agent": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "multi_tool": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "rag": {
+          "passed": 8,
+          "total": 10,
+          "value": 0.8
+        },
+        "recovery": {
+          "passed": 2,
+          "total": 4,
+          "value": 0.5
+        },
+        "safety": {
+          "passed": 6,
+          "total": 6,
+          "value": 1.0
+        },
+        "single_tool_query": {
+          "passed": 8,
+          "total": 8,
+          "value": 1.0
+        },
+        "tool_failure": {
+          "passed": 4,
+          "total": 4,
+          "value": 1.0
+        },
+        "tool_timeout": {
+          "passed": 0,
+          "total": 2,
+          "value": 0.0
+        },
+        "write_operation": {
+          "passed": 6,
+          "total": 6,
+          "value": 1.0
+        }
+      }
+    },
+    "category_count": 12,
+    "protocol_digest": "9a804a276651f1c660870473ae3fab4c0e412df785697bb92296d196b1978f52",
+    "improved": [
+      [
+        "rag_hash_collision_no_overlap",
+        1
+      ],
+      [
+        "rag_hash_collision_no_overlap",
+        2
+      ]
+    ],
+    "comparable": true
+  },
+  "provider": {
+    "subsequent_action": "User confirmed current service cannot be repaired; keep actual failure and stop retries",
+    "successful_model_responses": 0,
+    "model_requests_attempted": 3,
+    "before_after_comparison_executed": false,
+    "full_22_case_suite_executed": false,
+    "status": "provider_unavailable",
+    "latest_report": "../benchmark/results/provider-connection.json",
+    "credentials_or_endpoint_logged": false,
+    "safe_diagnostic": "TLS handshake terminated with SSLEOFError; earlier TCP probe timed out"
+  },
+  "documentation": {
+    "note": "Coverage and link verification are recorded separately after documentation is finalized",
+    "coverage_report": "../sys_docs/_meta/coverage.json",
+    "source_snapshot": "../sys_docs/_meta/source-snapshot-phase-12.json",
+    "historical_snapshot_preserved": "../sys_docs/_meta/source-snapshot.json",
+    "delivery_check": {
+      "broken_links": [],
+      "local_links": 111,
+      "reference_files_changed": [],
+      "spec_byte_identical": true,
+      "phases_checked": 13,
+      "missing_sections": [],
+      "reference_files_checked": 59
+    }
+  },
+  "environment": {
+    "python": "3.12.10",
+    "backend_lock_sha256": "4ca89b9b71f42452ef6e8337a2d4277382b6d8dac5eb195dea58df83ad13eec2",
+    "dependencies": {
+      "langchain": "1.4.3",
+      "langgraph": "1.2.12",
+      "langchain-openai": "1.6.7",
+      "sqlalchemy": "2.1.3"
+    }
+  },
+  "limitations": [
+    "Weak lexical overlap still retrieves unrelated topic evidence",
+    "Timeout/cancel framework tool.finished gap remains; capture_complete now correctly false",
+    "Provider connectivity blocked; no completed online model evaluation",
+    "Rule-based facts/citation checks are synthetic proxies, not clinical validation",
+    "Comparison fingerprints cover four core dependency versions, not entire runtime dependency graph",
+    "Comparison accepts generated summaries; this pair was reviewed against result rows",
+    "Provider duplicate final callbacks can duplicate proposal counts; offline selection/argument metrics are N/A"
+  ]
+}

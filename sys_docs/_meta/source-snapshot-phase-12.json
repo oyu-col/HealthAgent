@@ -1,0 +1,1042 @@
+{
+  "recorded_at": "2026-10-11T04:40:21.315Z",
+  "files": [
+    {
+      "source": ".env",
+      "guide": ".env.md",
+      "sha256": null,
+      "mode": "schema-only-no-content-read"
+    },
+    {
+      "source": ".env.example",
+      "guide": ".env.example.md",
+      "sha256": "4debfc426147fe5c2478e25c9cea23a5a2ac378d55ee724ecdba9b5d80329bb2",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": ".gitignore",
+      "guide": ".gitignore.md",
+      "sha256": "4acd00c3ec51acf148e1cf5ac34fe43b22f21728acf605629b331ff81a0d5e1c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "AGENTS.md",
+      "guide": "AGENTS.md.md",
+      "sha256": "e3fbeb81259a045c9ece1c3318c5ca0b7f246a7b190a3491d6c62e7304d11826",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "HEALTH_AGENT_SPEC.md",
+      "guide": "HEALTH_AGENT_SPEC.md.md",
+      "sha256": "cf025dfecef211fbe558447e57dde86a950475cd10cd77d31a07890641076db3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "README.md",
+      "guide": "README.md.md",
+      "sha256": "9baaf29132a49ba54edd344f27f10d806a102b7dffc4f41257eb253d8ca7b07a",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/.python-version",
+      "guide": "backend/.python-version.md",
+      "sha256": "7b55f8e67b5623c4bef3fa691288da9437d79d3aba156de48d481db32ac7d16d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/AGENTS.md",
+      "guide": "backend/AGENTS.md.md",
+      "sha256": "ae11d6cfdc89a5323a384c4d968ac515b9f1a7f4fceb7cb29808c78c77ff07f3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/__init__.py",
+      "guide": "backend/app/__init__.py.md",
+      "sha256": "bb6aabdf21003450ec88bd04eb238af61cee494574a7c0aad5ef122a57e4369d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agent/__init__.py",
+      "guide": "backend/app/agent/__init__.py.md",
+      "sha256": "0a89299bd902b41e7e55ba7ff7d128eb94e93451c92efb6a1f0b53e0330d10e5",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agent/budget.py",
+      "guide": "backend/app/agent/budget.py.md",
+      "sha256": "15cb1a86afc993ed4edbbac00f5c3637c0b3a9adbc95e888a86cda6614919d84",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agent/context.py",
+      "guide": "backend/app/agent/context.py.md",
+      "sha256": "0421faa8c30bae2ddc221eed8053c0dba233d99c6eba7f973c9dc68486b03dae",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agent/errors.py",
+      "guide": "backend/app/agent/errors.py.md",
+      "sha256": "4708bd217e8659276069aeb56726f542791c0eb295b427ff2bccbd79ad62f112",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agent/reliability.py",
+      "guide": "backend/app/agent/reliability.py.md",
+      "sha256": "42e14df34f48fd31a2632e5220847f75f044daf89db71dca7f3205a265aed8b7",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agent/runtime.py",
+      "guide": "backend/app/agent/runtime.py.md",
+      "sha256": "75cf48c298d779f826922156fc03ac742670050f37d102fc70877c02e5627c5f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agent/tool_middleware.py",
+      "guide": "backend/app/agent/tool_middleware.py.md",
+      "sha256": "5f2a8ff0d196db4c6e6cae48b56baa45ad4c199358c3ac4653413d6292240aaa",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agents/__init__.py",
+      "guide": "backend/app/agents/__init__.py.md",
+      "sha256": "8aa2649f44a4d4299f5640dcb1fb70a10b3b179fe95efcfa4833c0fbe6bccb9e",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agents/lead_agent.py",
+      "guide": "backend/app/agents/lead_agent.py.md",
+      "sha256": "241857399cfe3d3c3c92bb6bd1ba23af1058cb098512c3493b7af7ee6137f756",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agents/prompts.py",
+      "guide": "backend/app/agents/prompts.py.md",
+      "sha256": "c3f372ebdff13603c331fef63c6965980f428cec64e28c579efc21a24338f4f1",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/agents/subagents.py",
+      "guide": "backend/app/agents/subagents.py.md",
+      "sha256": "d9b74ea2bb466a3f4493c82cdc779bd1361439f8b20616c6cf2535538fd0e6d3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/__init__.py",
+      "guide": "backend/app/api/__init__.py.md",
+      "sha256": "27d8843e0acbff6936afb2103fa31ce41466c0b4ce4b80c21c5504087f8ad685",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/chat.py",
+      "guide": "backend/app/api/chat.py.md",
+      "sha256": "e93d0afaf01cb284bdcc90d699d1e971a2015045d61dd2681efa9f85e09405ed",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/documents.py",
+      "guide": "backend/app/api/documents.py.md",
+      "sha256": "d209438bdac6df39efc826e203b49a7e54f1d6945a879e6952bdbb074efbf06a",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/memory.py",
+      "guide": "backend/app/api/memory.py.md",
+      "sha256": "f7e3234958ff258dc80320909dcd377c9116e3d0505729f245a9e0f05c098391",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/records.py",
+      "guide": "backend/app/api/records.py.md",
+      "sha256": "497b6ed07bdeb7153aba16b3afa38130f79b8846f9a15bc7d7bc9c2af8f1dba3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/schemas.py",
+      "guide": "backend/app/api/schemas.py.md",
+      "sha256": "c551fa1cad2302393d85f43c4f95f8202d6c9233b28450d785c539087708da6b",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/session.py",
+      "guide": "backend/app/api/session.py.md",
+      "sha256": "c1b7f83b282b32f73e511b79b06c7cd7f1d2704c8a34dfe9e18b4e1d5e35829a",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/sse.py",
+      "guide": "backend/app/api/sse.py.md",
+      "sha256": "d1a0db4500562d19b35d4951051adc9335ad40cdc1b074fc52623d299186e38d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/stream.py",
+      "guide": "backend/app/api/stream.py.md",
+      "sha256": "8478106e587a7df6944a9aa7eb53d5db3af29ec0257f6683b4c560a1f895817e",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/threads.py",
+      "guide": "backend/app/api/threads.py.md",
+      "sha256": "e3f3300aa5c32013e59e4d23dd08a4ddd07074b08051d2125fb1e2522e6f27a9",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/api/traces.py",
+      "guide": "backend/app/api/traces.py.md",
+      "sha256": "c40aa10a84df9222417560e2850003e07d0e11c34360e139ddd8757a58187835",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/auth.py",
+      "guide": "backend/app/auth.py.md",
+      "sha256": "b450dcbaab2b8d5e8a876a886a89d8cd39a3d30552bd94c5578642b313a5ffff",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/config.py",
+      "guide": "backend/app/config.py.md",
+      "sha256": "388921b8d92766a829715383977aa1e89ed3929ceb847e8e84ecfd7e97b6d515",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/dependencies.py",
+      "guide": "backend/app/dependencies.py.md",
+      "sha256": "26c281b67018eb72532a89b8ae2035e1ccd8f912d87ff108d5a9b544079b6512",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/domain/__init__.py",
+      "guide": "backend/app/domain/__init__.py.md",
+      "sha256": "38e72b67899f86ed4ada64442621163079cb49e4516163bf30e3964ccc5dab4c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/domain/schemas.py",
+      "guide": "backend/app/domain/schemas.py.md",
+      "sha256": "443f234cdb7d8cfa7b2553f026c49f7bbe0cb39d856e3dfdeec4bd3bb0a14806",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/main.py",
+      "guide": "backend/app/main.py.md",
+      "sha256": "5930fd8b9c4ab66a2b955f364edd0b961a8b8aca7078c91549cca53f7ccf66a7",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/memory/__init__.py",
+      "guide": "backend/app/memory/__init__.py.md",
+      "sha256": "3b60b467311767924976ed33e6ca71b5435fc723c0c3880b6942e060098755de",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/memory/extraction.py",
+      "guide": "backend/app/memory/extraction.py.md",
+      "sha256": "c36dfd42d4685cf89998e7ac7e5ec81f80aa2afa7c77b63470f975ade08b0d2c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/memory/middleware.py",
+      "guide": "backend/app/memory/middleware.py.md",
+      "sha256": "faba6be5b701ed06a9b8c0a9886373d97e939d2764fbf94d44e535f461444ce3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/models/__init__.py",
+      "guide": "backend/app/models/__init__.py.md",
+      "sha256": "708c21c539c96a09ddfeafecdfcd3942edd067bc7e67b1fde4409acfab8d5ae9",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/models/demo.py",
+      "guide": "backend/app/models/demo.py.md",
+      "sha256": "0871750c6c6e099d0cecbee3d3891c81af52740645d1e26bf77a5858ea556168",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/models/factory.py",
+      "guide": "backend/app/models/factory.py.md",
+      "sha256": "6015550d96f6eb46f0c5b996013619036704cde3130748760fb9c2b953795e7d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/observability/__init__.py",
+      "guide": "backend/app/observability/__init__.py.md",
+      "sha256": "edfebdedb0bb3eb25030f85d3b04e3d2d0df397bfbd724bd31fd3fa3fe723cef",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/observability/recorder.py",
+      "guide": "backend/app/observability/recorder.py.md",
+      "sha256": "322846382d8c790275965126adf920153c16ade6acdb6d4b0a430a101ff3b9a0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/__init__.py",
+      "guide": "backend/app/persistence/__init__.py.md",
+      "sha256": "09ef373391056ec9945b623e2c20aa1a769c48671f4f7f08965d8f44da1c6dd9",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/database.py",
+      "guide": "backend/app/persistence/database.py.md",
+      "sha256": "07bc0c706587bc2a59fcb746646d44f048a9e1fb8b40d37bbc8276aa65c8b56d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/health_repository.py",
+      "guide": "backend/app/persistence/health_repository.py.md",
+      "sha256": "0c8e94169c955d1452a1691a89173737e8bd753641a7e2125da106eb58b51f9f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/knowledge_repository.py",
+      "guide": "backend/app/persistence/knowledge_repository.py.md",
+      "sha256": "dc1b359327111a59b96be9a56434d6d91cc0d8e765a3d0c2156cfcbf3d4072f5",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/memory_repository.py",
+      "guide": "backend/app/persistence/memory_repository.py.md",
+      "sha256": "fdbee1cf560e551494e502ba50a3c17bd29f2d002079de642ac204933be68af3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/models.py",
+      "guide": "backend/app/persistence/models.py.md",
+      "sha256": "08c7626597341a4711d6b30d77d952899dd990ad67f0bac845586303cd8b9068",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/thread_repository.py",
+      "guide": "backend/app/persistence/thread_repository.py.md",
+      "sha256": "47e73d6b295839b5466bcfa5be254dd9ca26a28aab54565c7afd14dfa64e1f4f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/persistence/trace_repository.py",
+      "guide": "backend/app/persistence/trace_repository.py.md",
+      "sha256": "bda54562f425f132276d559076dea5a90de29760ae28ee81909aaa3e90fab52e",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/rag/__init__.py",
+      "guide": "backend/app/rag/__init__.py.md",
+      "sha256": "257faf8c894ac71f5c031ddbe34c9fbd6cfdb79e38f1e7af5c9e6820e2956bbd",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/rag/embeddings.py",
+      "guide": "backend/app/rag/embeddings.py.md",
+      "sha256": "987c25bb1e02710c8c1365aa4c1926a093da8cf97d3e31752b3dbd069f6f98a3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/rag/parsing.py",
+      "guide": "backend/app/rag/parsing.py.md",
+      "sha256": "f438d8d96afc23eccf3df2e6eb8a49c3ed2ca2e9f6d3984e37d4532b03e4deb0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/rag/retriever.py",
+      "guide": "backend/app/rag/retriever.py.md",
+      "sha256": "66f0648f208c0cfa6e0a8f3caf0a5ae6a10d070eafadf515669fec97fb27027a",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/services/__init__.py",
+      "guide": "backend/app/services/__init__.py.md",
+      "sha256": "6d09efd18b3feef6e1908b4d3909a620fb2e5a6ef8f562ca686a6eb86c5c1c47",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/services/health.py",
+      "guide": "backend/app/services/health.py.md",
+      "sha256": "444f6138fd0c4cf77d664aae9ec96bdb26fd4dd0068a7c6d7f7171ae5cfce623",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/services/knowledge.py",
+      "guide": "backend/app/services/knowledge.py.md",
+      "sha256": "e9c1acb9a47cd5ac79b82f1cf723037f84ac0bd402d3542336b4d96e60de8634",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/services/memory.py",
+      "guide": "backend/app/services/memory.py.md",
+      "sha256": "50db14ba10e64b944a89303585468e38068b1d3c4d9189e898d3cd141808a2c5",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/services/threads.py",
+      "guide": "backend/app/services/threads.py.md",
+      "sha256": "c8b3f25f3c1374082e3208595c78d6cbf94585ab93f22f9053305805aefa7a8c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/tools/__init__.py",
+      "guide": "backend/app/tools/__init__.py.md",
+      "sha256": "2f702891f7baa27e92f3ab5af5c837bba737f47b20a739682ed24933cad905c4",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/tools/health.py",
+      "guide": "backend/app/tools/health.py.md",
+      "sha256": "10a62bfe01065ea040e0ddf52aeeb25fb416f54f4a631971ce8bfff52554a44c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/app/tools/knowledge.py",
+      "guide": "backend/app/tools/knowledge.py.md",
+      "sha256": "5dfa82c12b768073a026d400804524f978112e4992b42399b047012d7504b357",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/logging.json",
+      "guide": "backend/logging.json.md",
+      "sha256": "1bf7d101beca6ce889392c0f4dea328ebf4c9456a685ba787492c6dce71ab369",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/pyproject.toml",
+      "guide": "backend/pyproject.toml.md",
+      "sha256": "8ec28ae462be7edd170dcd09f2c4c2326f3419a9116afcfc6c16941ac89f9186",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/scripts/ingest_public.py",
+      "guide": "backend/scripts/ingest_public.py.md",
+      "sha256": "1c8af491ac8364c2c0a84bc2826e52e117f59519bbd337c47a8c9555be5e4ce4",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/scripts/smoke.py",
+      "guide": "backend/scripts/smoke.py.md",
+      "sha256": "e4cddbf447dbfb0b079df52678d2a7b12ed89f83a4cf3c3444f46eff2b602f09",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/scripts/smoke_server.py",
+      "guide": "backend/scripts/smoke_server.py.md",
+      "sha256": "2c048104808f24cc52edb668203336cfafdf27951676f6a22e2f0c8d09a521f0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/scripts/stream_client.py",
+      "guide": "backend/scripts/stream_client.py.md",
+      "sha256": "c8acf7b3f065d5c750ce4bf9f6a92299e42e75ab33f4e8bfc1e747cd28cefb48",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/scripts/verify_delivery.py",
+      "guide": "backend/scripts/verify_delivery.py.md",
+      "sha256": "a03351288ebb2f02f935a240c3662f3464314916c5d2ade0d28b6c58c0f5704f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/__init__.py",
+      "guide": "backend/tests/__init__.py.md",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/conftest.py",
+      "guide": "backend/tests/conftest.py.md",
+      "sha256": "b9de684c39d0d4db972820fc12d48f9f11d935fe324622762a88a5c9a57a6afc",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/fakes.py",
+      "guide": "backend/tests/fakes.py.md",
+      "sha256": "968879eb2b66629b72976830b64d34cf820376dd431da2a905fd5c8f2d9766f9",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_api.py",
+      "guide": "backend/tests/integration/test_api.py.md",
+      "sha256": "1c19680f5d88e441a84f6961ac1848d873beacd6f3df1b05e65bd1509deadd3f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_benchmark_runner.py",
+      "guide": "backend/tests/integration/test_benchmark_runner.py.md",
+      "sha256": "0517f4a7af36a4f2cbc562b6aff1761208c5e7fd557c04ca3482e3a787f8c50d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_health_tools.py",
+      "guide": "backend/tests/integration/test_health_tools.py.md",
+      "sha256": "3d5266712d5bbcf2a21f4c6c3d4828e1e080ca0fdf0d3d2dfcf89a2a073043ef",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_memory.py",
+      "guide": "backend/tests/integration/test_memory.py.md",
+      "sha256": "96920b54c897c5c713027f6efb6c3c6fb22983907a80e02374f32ab0cf5164d0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_observability.py",
+      "guide": "backend/tests/integration/test_observability.py.md",
+      "sha256": "ddd2e6ec6b10d9f8e71608dadb06ea35bc98a4c57f0864afdf8ab2264ce578b3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_provider_transport.py",
+      "guide": "backend/tests/integration/test_provider_transport.py.md",
+      "sha256": "a0d23437a676b1873c4de8c148bd4bbe01dfe8106c30c6ecc0db7156cfd1aab7",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_rag.py",
+      "guide": "backend/tests/integration/test_rag.py.md",
+      "sha256": "fbe11be421ffe245c267184e83cd0483636cad19717ec9f324457d4d1f40f6e4",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_reliability.py",
+      "guide": "backend/tests/integration/test_reliability.py.md",
+      "sha256": "4c17aac244a43007e542f831d7d7b836ac1a17c8792c55803496c45eff7a11a1",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_replay_integrity.py",
+      "guide": "backend/tests/integration/test_replay_integrity.py.md",
+      "sha256": "6cd73ccfff6ff03766579ff5a62a6523b318493b60d555402a36f8b37903ec84",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_retrieval_evidence.py",
+      "guide": "backend/tests/integration/test_retrieval_evidence.py.md",
+      "sha256": "408db06aa2d9caed41c339f2939f57446610968521a17f58987e1f4f9e703cdb",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_streaming.py",
+      "guide": "backend/tests/integration/test_streaming.py.md",
+      "sha256": "3934ef4712ea9d8b7c37838fa3ace8a1df45cf62fdbd24e5d253f3616e409fb3",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_subagents.py",
+      "guide": "backend/tests/integration/test_subagents.py.md",
+      "sha256": "536376a03fcc33cfdcffe3d54a65ca0a1dec1253d23d91c9d4e2b86ca9a78401",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_threads.py",
+      "guide": "backend/tests/integration/test_threads.py.md",
+      "sha256": "996d7c54ec32f1e11f1ecf2f375686a861fee929b8bd85d8ef6f41a47af68966",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/integration/test_ui_api.py",
+      "guide": "backend/tests/integration/test_ui_api.py.md",
+      "sha256": "dd7d14cf09018cbf087113bbb1b74bf8e146f80a4d0778b221f97115ac59fe3e",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/live/test_provider.py",
+      "guide": "backend/tests/live/test_provider.py.md",
+      "sha256": "a4ef9a3b959798a2e9eb87a03f84a3392f3bc5db6d5136a3f4b083ba147cb21b",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/unit/test_benchmark_cases.py",
+      "guide": "backend/tests/unit/test_benchmark_cases.py.md",
+      "sha256": "1fe72d47dca07d3552a832b7d4b6482eb0ade3e8340ff6f06b99173da545c7f1",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/unit/test_benchmark_graders.py",
+      "guide": "backend/tests/unit/test_benchmark_graders.py.md",
+      "sha256": "339259b9220cdaa276608b3bbb68a253a8b25f4e9fa6ae665e0e35efa35a0a0d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/unit/test_benchmark_report.py",
+      "guide": "backend/tests/unit/test_benchmark_report.py.md",
+      "sha256": "ccb77e38b2c7512b0534e790a23c9df2b17d363928d7d6416c2a2377433bd77e",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/unit/test_config.py",
+      "guide": "backend/tests/unit/test_config.py.md",
+      "sha256": "8cfe80f96cae1244f17d6c060e92ae6e4ea6eca7a14ee0d2453c974309aa62e0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/unit/test_model_factory.py",
+      "guide": "backend/tests/unit/test_model_factory.py.md",
+      "sha256": "b4d0eb4c4a82bbbabe1623e3f0e62c3bace261af4034705de95610b4224d367f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/unit/test_runtime.py",
+      "guide": "backend/tests/unit/test_runtime.py.md",
+      "sha256": "390d52de44339e0b1fd60ae95aa09d033f139158c7089f90440e11e6218f4535",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/tests/unit/test_trace_recorder.py",
+      "guide": "backend/tests/unit/test_trace_recorder.py.md",
+      "sha256": "2e96254604ea851080ad73e303701933684f43e752ed26b91ae12c1082cf0d04",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "backend/uv.lock",
+      "guide": "backend/uv.lock.md",
+      "sha256": "4ca89b9b71f42452ef6e8337a2d4277382b6d8dac5eb195dea58df83ad13eec2",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/README.md",
+      "guide": "benchmark/README.md.md",
+      "sha256": "c802813e214cc785fe870cc11dbb7ca1b658debaaba9ad5df1a4b062d86c168b",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/__init__.py",
+      "guide": "benchmark/__init__.py.md",
+      "sha256": "bbc8d7698a062dbcf8cdb598d2981993017a154a09a5c03e1226374fbd6ed63a",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/cases/health-v1.json",
+      "guide": "benchmark/cases/health-v1.json.md",
+      "sha256": "fcf60b37bd8861544d969b6b86a2c1a0afd6cabebdc79b21f9acdc21f89ae1b9",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/environment.py",
+      "guide": "benchmark/environment.py.md",
+      "sha256": "2387ffd4d7ae5b206e35256a833180380441a36c1222d85bb3f1ed50a7842693",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/graders/__init__.py",
+      "guide": "benchmark/graders/__init__.py.md",
+      "sha256": "efd3c532415c7c1667dcd15450ea3ce0750b24ad7afc29b4321a8e69baa31048",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/graders/task.py",
+      "guide": "benchmark/graders/task.py.md",
+      "sha256": "d027f2272039a58f70fbcfb14ca8b85e043d618a73b2fc28e3baaf5515405b1f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/model.py",
+      "guide": "benchmark/model.py.md",
+      "sha256": "323ac5bf4fd98351e9e1dc6ed1da28c164cfd2d942d4cd4e173cf172a4f9c482",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/observation.py",
+      "guide": "benchmark/observation.py.md",
+      "sha256": "4c8970ae7e85f93af3d15432272c0696b74fd2d338337fb331feaba962db0bfc",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/report.py",
+      "guide": "benchmark/report.py.md",
+      "sha256": "52bc1a4f1f2b6c2c33ba174224df9a75e638debdb5ef6844e1bb849a969fdbd1",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/results/README.md",
+      "guide": "benchmark/results/README.md.md",
+      "sha256": "894d3e2b2c457e09025c3f68355c1d62ac24895b2c478ba0ea96f26f8f1185b7",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/results/baseline-contract.json",
+      "guide": "benchmark/results/baseline-contract.json.md",
+      "sha256": "6460c9f0daa5b872042e89524002fbc4ce3fbb1c21b3ee97e328e2c24fc76dd0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/results/candidate-contract.json",
+      "guide": "benchmark/results/candidate-contract.json.md",
+      "sha256": "5dfe1c60bf45caee976939368d0e4d30f1dfc5a2f77c7ac759ed6f9c186763e0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/results/comparison-contract.json",
+      "guide": "benchmark/results/comparison-contract.json.md",
+      "sha256": "d711dedf8ee18a15c1b116e1b8e1f2141258c4df7013bd70335594ef34090165",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/results/provider-connection.json",
+      "guide": "benchmark/results/provider-connection.json.md",
+      "sha256": "adbb1cd894f6bf6546410da3d7460f0142b60adda5f9716bb184b10e9ea9470e",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/runner.py",
+      "guide": "benchmark/runner.py.md",
+      "sha256": "220ba1141c919b5feda505cf3340f86207b7f7e79bae6349834a47ab5433a481",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "benchmark/schema.py",
+      "guide": "benchmark/schema.py.md",
+      "sha256": "16d027027d2d4f0f708e6662b2c09907b7b6f8907d51fdee7d59a947cefa0477",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/architecture.md",
+      "guide": "docs/architecture.md.md",
+      "sha256": "9355f4b156e9ff889aec11372571a323aa98ab6ee2b6b7af4e18a9cd97de2c3a",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-0-deerflow-analysis.md",
+      "guide": "docs/phase-0-deerflow-analysis.md.md",
+      "sha256": "ae4b9278e3116b64f92367f498ac3502805dc133122598d4d15a5ed4e75a42a7",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-0-delivery.md",
+      "guide": "docs/phase-0-delivery.md.md",
+      "sha256": "8043272bbb61ff5ebb42baa1e809eaf1c506cdd6dfa1bb4807adfbc3be273f6d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-1-delivery.md",
+      "guide": "docs/phase-1-delivery.md.md",
+      "sha256": "67da760d12680669263811db44b375f3ae4e56216d0db682fb42d48c758662e2",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-1-plan.md",
+      "guide": "docs/phase-1-plan.md.md",
+      "sha256": "5bb33ab0fb9fb11be72ae9f4a34bfd51dfaf0c13bc766c9850fb0faca24924fb",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-1-validation.json",
+      "guide": "docs/phase-1-validation.json.md",
+      "sha256": "68115071ca57ef74515209a775b4f82088c267187c9e96956ae69a19b4941c6a",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-10-delivery.md",
+      "guide": "docs/phase-10-delivery.md.md",
+      "sha256": "fad9dcd3e573263462d27d3d58683f42ac68d640a7091437b0a02e0e714f0b4d",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-11-12-deerflow-reference.json",
+      "guide": "docs/phase-11-12-deerflow-reference.json.md",
+      "sha256": "1f577a84ca8714e59a31b9eaa1572bbde38a8bd05bb62b74d733e7d3a8da71eb",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-11-12-plan.md",
+      "guide": "docs/phase-11-12-plan.md.md",
+      "sha256": "cc253b3d2749b6b3cbd571a4db4b2f95b1ce6ccc954c9f3a24c7918e97b76a77",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-11-12-validation.json",
+      "guide": "docs/phase-11-12-validation.json.md",
+      "sha256": "6f001b1f4d3a7ca398535e66a5ae7d6ca6695de0a910283e409e8ea14ffbe0b1",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-11-delivery.md",
+      "guide": "docs/phase-11-delivery.md.md",
+      "sha256": "ce052fa29bfd9d513d1f8d81c243534402730835d29ae50c2c37ba5e20fe6b66",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-12-delivery.md",
+      "guide": "docs/phase-12-delivery.md.md",
+      "sha256": "316841d46fc6e1ef9642694458ceea31a50621469cb0ef1ed48d78b3e23d66ea",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-2-6-validation.json",
+      "guide": "docs/phase-2-6-validation.json.md",
+      "sha256": "bcea51191f45c2b9da35f2605c3d7aadc3439e1d801cc1152441cc78e55d6054",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-2-delivery.md",
+      "guide": "docs/phase-2-delivery.md.md",
+      "sha256": "742aa31a85538427b8d5c28ca4ba7f3b960723de38550e8b2712d201ef9b50ec",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-3-delivery.md",
+      "guide": "docs/phase-3-delivery.md.md",
+      "sha256": "13d07d0f627265a143d80248c20cb14ae41fbf27e87006feeeae941672ba733f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-4-delivery.md",
+      "guide": "docs/phase-4-delivery.md.md",
+      "sha256": "58c0dde4d48c4984106e07c14bafea96039f625c9295ba14b1469f37c375c0b4",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-5-delivery.md",
+      "guide": "docs/phase-5-delivery.md.md",
+      "sha256": "a05ba387abf9708efdcceb98d7f76efe40546820617930b274f4f988220cf82b",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-6-delivery.md",
+      "guide": "docs/phase-6-delivery.md.md",
+      "sha256": "b7f1eb83737711b47182d72cf9e892eb2c021719a9eb806265da3bce579bd209",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-7-10-plan.md",
+      "guide": "docs/phase-7-10-plan.md.md",
+      "sha256": "e1244a35245327fa0ad10966b7b47d26c282ae894b866aee8f1c8873d3cbabed",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-7-10-validation.json",
+      "guide": "docs/phase-7-10-validation.json.md",
+      "sha256": "7336b8cbf82dc14713b54b3f1b2ef3c006e16d89b957f6483e45aa47c92af04e",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-7-delivery.md",
+      "guide": "docs/phase-7-delivery.md.md",
+      "sha256": "20ffc10358ac93755e628b21952f9c90d307af2a891790756b6a5efa52704fec",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-8-delivery.md",
+      "guide": "docs/phase-8-delivery.md.md",
+      "sha256": "2c3afd7a6612bb4499c6fd04421a180b233e7fe3362ce53e5415050945282ed6",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/phase-9-delivery.md",
+      "guide": "docs/phase-9-delivery.md.md",
+      "sha256": "72e3feb6eeae43c8a6942b2952335a7d20bffcd0c1e71640dff4d783013b84a5",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/reference-snapshot.json",
+      "guide": "docs/reference-snapshot.json.md",
+      "sha256": "8b21bc4f575071231fb7afc973544e3a9e67815ffa4b2299b300fbb52e26f943",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/ui-deerflow-reference.md",
+      "guide": "docs/ui-deerflow-reference.md.md",
+      "sha256": "a619ad861624313ed7b2f1032a227b7097af5634f6497662eeeb7d6599fb0ae1",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "docs/validation-results.json",
+      "guide": "docs/validation-results.json.md",
+      "sha256": "4751f028e302d496038fb456023834aa1ccc10b94395c2970698479ab795e138",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/.prettierignore",
+      "guide": "frontend/.prettierignore.md",
+      "sha256": "ce72477edb71c6484c8f3d1e69c1058563eaa75612071f1e0153c6d5c60731e0",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/AGENTS.md",
+      "guide": "frontend/AGENTS.md.md",
+      "sha256": "6ef330f4282f7e6b60c8a986c0f619811786804f15a0fadbdfaf627952429be5",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/eslint.config.js",
+      "guide": "frontend/eslint.config.js.md",
+      "sha256": "55f4c6c6a230d3035cf5402291085b0d8e65d058a45c3262240a1adcc7feb28b",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/index.html",
+      "guide": "frontend/index.html.md",
+      "sha256": "8c7eb08b8d8b2e0b16c6268c57c0522385d4bb20062489a6f7c0701109e7e706",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/package.json",
+      "guide": "frontend/package.json.md",
+      "sha256": "4efd577b218358c5211c52252f46481de21763268e702aa96e3809afa31eb4e2",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/playwright.config.ts",
+      "guide": "frontend/playwright.config.ts.md",
+      "sha256": "68d881858ed1b2113c81d0340aa4fbc16e45c6b84cb967d34355f77bf63f88a6",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/pnpm-lock.yaml",
+      "guide": "frontend/pnpm-lock.yaml.md",
+      "sha256": "19e312734dcc13c59ba8c42e35cd09880f8a53379b379a39d70657fc9d590dc4",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/scripts/smoke.mjs",
+      "guide": "frontend/scripts/smoke.mjs.md",
+      "sha256": "c6f240a948056fedf3a330c66bf84fa3b3f2b5fd5109e03cd2e4f1375177917c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/App.tsx",
+      "guide": "frontend/src/App.tsx.md",
+      "sha256": "a81e00ece1e1681ad649da15b38455bd2370255167791926c0223380a13e0d28",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/components/Chat.tsx",
+      "guide": "frontend/src/components/Chat.tsx.md",
+      "sha256": "69736a73fb3fe92b5a32863610641bb6efc079e87ace2f84be47d567f8e8e00c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/components/Documents.tsx",
+      "guide": "frontend/src/components/Documents.tsx.md",
+      "sha256": "84b3a8595bfdb42c4514a51072901d8dd89774c5f4d9d3992ec2cad904a0dec6",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/components/Memory.tsx",
+      "guide": "frontend/src/components/Memory.tsx.md",
+      "sha256": "a715bdf291a74ce455079fad57327bf59fab2909ad92cb5bf0ea13113ccf9f4c",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/components/Records.tsx",
+      "guide": "frontend/src/components/Records.tsx.md",
+      "sha256": "6bad72e99cc34da77383e6b1651be8bc7b4224ff9386f9681acf5bccb7ae44ea",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/components/TraceDialog.tsx",
+      "guide": "frontend/src/components/TraceDialog.tsx.md",
+      "sha256": "a17a73c80d3edb5a483eb91ebf3efb4d1d352eed33243762acaad2f79e9e66be",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/components/ui.tsx",
+      "guide": "frontend/src/components/ui.tsx.md",
+      "sha256": "9dcc29590d864bbf81fb3fea869095fda019c9d808d90e3f306d95be529be126",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/favicon.svg",
+      "guide": "frontend/src/favicon.svg.md",
+      "sha256": "850a7e6b1439c37bea93dc375101758e3fbd300f18f648c87df1c40091f886d4",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/lib/api.ts",
+      "guide": "frontend/src/lib/api.ts.md",
+      "sha256": "ef2b89809179560a1ce20ce9c0d5d4c1bf05800e62a68659623c4732858aa85f",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/lib/hooks.ts",
+      "guide": "frontend/src/lib/hooks.ts.md",
+      "sha256": "767db2bb0448533babf2c3d3d26053ece3311b59975eb5ba74500c68b92ad224",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/lib/types.ts",
+      "guide": "frontend/src/lib/types.ts.md",
+      "sha256": "d0c5153b1ecb18eb8b0b78b0fd2bc1a421a357775287759e44f6687f7e28c010",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/main.tsx",
+      "guide": "frontend/src/main.tsx.md",
+      "sha256": "ccbefe7be6c69706a1bb01c4c3f20492eb002435af6ba7e5a6d45f7c6aa3a140",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/src/styles.css",
+      "guide": "frontend/src/styles.css.md",
+      "sha256": "7ac7a08a98884f9e413290cdaf80760e456ae9d44e7cf28e9439654408f76bb8",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/tests/e2e/global-setup.ts",
+      "guide": "frontend/tests/e2e/global-setup.ts.md",
+      "sha256": "f25eddbb1d96baa92acaedf40cfe064d4f0e070f0cd64078781098679c2427a6",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/tests/e2e/mock-api.ts",
+      "guide": "frontend/tests/e2e/mock-api.ts.md",
+      "sha256": "878c057a2e31ea6d4455700441836e84e436a1d96d3dc434ae3150a2041413ac",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/tests/e2e/workspace.spec.ts",
+      "guide": "frontend/tests/e2e/workspace.spec.ts.md",
+      "sha256": "77c8c8e16bd11985f5a2e19668942a9f98dc8033562f6fb1b09c5d16e4a07193",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/tests/unit/api.test.ts",
+      "guide": "frontend/tests/unit/api.test.ts.md",
+      "sha256": "6324b7400d6079febbb897f9f05043d51e3283e2a185facdcb2981423e08cb3b",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/tsconfig.json",
+      "guide": "frontend/tsconfig.json.md",
+      "sha256": "bd583ec3c4ea7720fdb472c4b374bca06e417f3bdf63262cf85dc60b1c5e5412",
+      "mode": "source-reviewed"
+    },
+    {
+      "source": "frontend/vite.config.ts",
+      "guide": "frontend/vite.config.ts.md",
+      "sha256": "874a7f2b6b66526140205b1fe064c813ae80040707db40238cac336d32665b61",
+      "mode": "source-reviewed"
+    }
+  ],
+  "directories": [
+    "",
+    "backend",
+    "backend/app",
+    "backend/app/agent",
+    "backend/app/agents",
+    "backend/app/api",
+    "backend/app/domain",
+    "backend/app/memory",
+    "backend/app/models",
+    "backend/app/observability",
+    "backend/app/persistence",
+    "backend/app/rag",
+    "backend/app/services",
+    "backend/app/tools",
+    "backend/scripts",
+    "backend/tests",
+    "backend/tests/integration",
+    "backend/tests/live",
+    "backend/tests/unit",
+    "benchmark",
+    "benchmark/cases",
+    "benchmark/graders",
+    "benchmark/results",
+    "docs",
+    "frontend",
+    "frontend/public",
+    "frontend/scripts",
+    "frontend/src",
+    "frontend/src/components",
+    "frontend/src/lib",
+    "frontend/tests",
+    "frontend/tests/e2e",
+    "frontend/tests/unit"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "phase": 1,
+  "recorded_at": "2026-10-03T12:47:56.326Z",
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.10"
+  },
+  "executed": {
+    "locked_offline_install": {
+      "command": "uv sync --locked --offline --group dev --link-mode copy",
+      "status": "passed"
+    },
+    "pytest": {
+      "command": ".venv/Scripts/python.exe -m pytest -q",
+      "passed": 66,
+      "skipped": 1,
+      "failed": 0,
+      "errors": 0,
+      "duration_seconds": 10.84,
+      "skip_reason": "Live provider requires explicit --run-live"
+    },
+    "ruff": {
+      "check": "passed",
+      "format_check": "passed",
+      "python_files": 28
+    },
+    "http_smoke": {
+      "command": ".venv/Scripts/python.exe scripts/smoke.py",
+      "status": "passed",
+      "mode": "fake",
+      "port": 50536,
+      "checks": [
+        "healthz",
+        "openapi",
+        "chat",
+        "trace_header"
+      ],
+      "child_process_stopped": true
+    }
+  },
+  "static_checks": {
+    "status": "passed",
+    "local_markdown_links": 80,
+    "broken_links": [],
+    "reference_files_checked": 57,
+    "reference_files_changed": [],
+    "spec_byte_identical": true,
+    "no_deerflow_import_or_dependency": true,
+    "delivery_sections_complete": true
+  },
+  "not_executed": [
+    "Live provider request",
+    "Medical quality evaluation",
+    "Domain benchmark",
+    "Frontend tests",
+    "Tool/DB/checkpoint/RAG integration"
+  ],
+  "scope": "Phase 1 only; single-user local, stateless non-streaming API"
+}

@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-11T04:40:50.218Z",
+  "snapshot": "source-snapshot-phase-12.json",
+  "status": "passed",
+  "source_files": 167,
+  "source_directories": 33,
+  "file_guides": 167,
+  "directory_guides": 33,
+  "markdown_pages": 202,
+  "local_links_checked": 1335,
+  "nonsecret_source_hashes_checked": 166,
+  "env_content_read": false,
+  "scope": "Documentation coverage, local link existence, UTF-8, fences and source against the named snapshot; this command does not execute application tests",
+  "failures": []
+}

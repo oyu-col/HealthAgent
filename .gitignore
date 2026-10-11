@@ -1,0 +1,36 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.pytest-tmp-*/
+.smoke-*/
+.benchmark-*/
+*.egg-info/
+build/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Frontend build output
+node_modules/
+.next/
+dist/
+test-results/
+playwright-report/
+.pnpm-store/
+
+# Private health data and unsanitized runtime/evaluation output
+data/
+*.sqlite
+*.sqlite3
+*.db
+*-wal
+*-shm
+benchmark/runs/
+*.log

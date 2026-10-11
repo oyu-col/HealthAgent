@@ -1,0 +1,1 @@
+"""Validated health domain data."""

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "phase": 0,
+  "executed_at": "2026-10-03T12:05:46.997Z",
+  "method": "Ad hoc Node.js filesystem and content checks; not application tests",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "spec_byte_identity",
+      "status": "passed",
+      "details": {
+        "sha256": "cf025dfecef211fbe558447e57dde86a950475cd10cd77d31a07890641076db3"
+      }
+    },
+    {
+      "name": "reference_snapshot_integrity",
+      "status": "passed",
+      "details": {
+        "checked_files": 57,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "local_markdown_links",
+      "status": "passed",
+      "details": {
+        "checked_links": 70,
+        "broken_links": []
+      }
+    },
+    {
+      "name": "utf8_and_markdown_structure",
+      "status": "passed",
+      "details": {
+        "checked_files": 9,
+        "markdown_files": 7,
+        "utf8Errors": [],
+        "fenceErrors": [],
+        "conflictMarkers": []
+      }
+    },
+    {
+      "name": "source_symbol_line_anchors",
+      "status": "passed",
+      "details": {
+        "checked_anchors": 50,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "phase0_documentation_only",
+      "status": "passed",
+      "details": {
+        "unexpected_files": [],
+        "implementation_started": false
+      }
+    },
+    {
+      "name": "spec_section32_eight_deliverables",
+      "status": "passed",
+      "details": {
+        "real_source_locations": true,
+        "request_roundtrip": true,
+        "framework_dependency_locations": true,
+        "reusable_framework_capabilities": true,
+        "adopt_designs": true,
+        "simplify_designs": true,
+        "target_directory": true,
+        "concrete_phase1_plan": true
+      }
+    },
+    {
+      "name": "spec_section31_delivery_format",
+      "status": "passed",
+      "details": {
+        "required_headings": [
+          "Completed",
+          "Files Changed",
+          "Design",
+          "DeerFlow Reference",
+          "Tests",
+          "Known Issues",
+          "Next Phase"
+        ]
+      }
+    }
+  ],
+  "not_executed": [
+    "Dependency installation",
+    "DeerFlow runtime",
+    "HealthAgent unit/integration/UI tests",
+    "Live model calls",
+    "Domain benchmark",
+    "Performance measurements"
+  ]
+}

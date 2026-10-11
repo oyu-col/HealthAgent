@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "phases": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "recorded_at": "2026-10-03T15:45:38Z",
+  "status": "passed",
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.10",
+    "node": "24.19.0",
+    "pnpm": "11.25.0",
+    "git": "not a Git worktree"
+  },
+  "executed": {
+    "backend_pytest": {
+      "command": ".venv/Scripts/python.exe -m pytest -q",
+      "passed": 155,
+      "skipped": 1,
+      "failed": 0,
+      "duration_seconds": 36.03,
+      "skip_reason": "Real provider requires explicit --run-live"
+    },
+    "backend_ruff": {
+      "check": "passed",
+      "format": "passed",
+      "python_files": 83
+    },
+    "frontend_unit": {
+      "command": "pnpm test",
+      "passed": 33,
+      "failed": 0
+    },
+    "frontend_lint": {
+      "command": "pnpm lint",
+      "status": "passed",
+      "warnings": 0
+    },
+    "frontend_format": {
+      "command": "pnpm format",
+      "status": "passed"
+    },
+    "frontend_build": {
+      "command": "pnpm build",
+      "typescript": "passed",
+      "vite": "passed"
+    },
+    "browser_smoke": {
+      "command": ".venv/Scripts/python.exe scripts/smoke.py --ui",
+      "status": "passed",
+      "model_mode": "fake",
+      "mocked_api": false,
+      "port": 49530,
+      "trace_id": "8d80692f-398b-4f22-927e-6abc4c201f9b",
+      "checks": [
+        "healthz",
+        "openapi",
+        "chat",
+        "trace_header",
+        "thread_history",
+        "memory_extraction",
+        "document_index",
+        "tcp_sse",
+        "memory_delete",
+        "persistent_trace",
+        "real_browser_ui",
+        "graceful_shutdown"
+      ],
+      "browser_checks": [
+        "built_static_ui",
+        "form_to_real_database",
+        "document_ingestion_index",
+        "memory_preference_write",
+        "real_sse",
+        "persisted_thread_reload",
+        "trace_timeline",
+        "mobile_navigation_no_overflow"
+      ],
+      "child_process_stopped": true,
+      "port_closed": true,
+      "temporary_data_removed": true
+    },
+    "browser_contract": {
+      "command": "pnpm test:e2e",
+      "status": "passed",
+      "passed": 10,
+      "failed": 0,
+      "duration_seconds": 5.4,
+      "exit_code": 0,
+      "browser": "Chromium",
+      "mocked_api": true,
+      "dev_server_closed": true
+    },
+    "visual_review": {
+      "status": "passed",
+      "desktop_viewport": [1440, 1000],
+      "mobile_viewport": [390, 844],
+      "synthetic_screenshots": "frontend/test-results/ui-review/",
+      "real_api_screenshots": "frontend/test-results/real-ui/",
+      "checks": ["readable layout", "no horizontal overflow", "mobile navigation closed", "textual failure status", "unknown trace metrics preserved"]
+    },
+    "local_demo_configuration": {
+      "created_from": ".env.example",
+      "model_mode": "fake",
+      "contains_real_credentials": false,
+      "configuration_tests_passed": 31
+    }
+  },
+  "static_checks": {
+    "reference_files_checked": 57,
+    "reference_files_changed": [],
+    "spec_byte_identical": true,
+    "no_deerflow_import_or_dependency": true,
+    "local_markdown_links": 91,
+    "broken_links": [],
+    "missing_delivery_sections": [],
+    "delivery_links_and_sections": "passed"
+  },
+  "corrections_during_validation": [
+    "Added an explicit accessible name to the memory preference select after real-browser smoke found ambiguous label text.",
+    "Document indexing failure uses an error notice; incomplete SSE cannot commit a final answer.",
+    "Lead SSE filters trusted agent metadata so child-agent drafts cannot appear as user-facing deltas.",
+    "Trace events include textual success/failure status, and the collapsed mobile sidebar is inert.",
+    "Completed request receipts are immutable: failed trace recording on cached replay cannot erase an older completed answer.",
+    "Trace admission is serialized through SQLite commit to prevent concurrent requests exceeding global or per-user retention capacity.",
+    "Playwright now owns Vite through an in-process setup/teardown; Windows shell-descendant cleanup previously hung after passing tests."
+  ],
+  "not_executed": [
+    "Live provider planning or medical answer quality evaluation",
+    "Live neural embeddings",
+    "Phase 11 domain benchmark",
+    "Phase 12 optimization comparison"
+  ],
+  "limitations": [
+    "Single worker only",
+    "Fake is a deterministic echo adapter, not a planning model",
+    "Specialists are read-only and have no recursive delegation",
+    "Explicit allowlist preference extraction",
+    "Local hash embeddings are lexical vectors; no OCR",
+    "No persisted SSE replay: recover through checkpoint/request_id",
+    "SDK-internal retries and missing token usage remain unobservable",
+    "Trace events persist at start/termination; a crash can lose in-memory events",
+    "Trace retention is bounded metadata, not a complete audit archive"
+  ]
+}

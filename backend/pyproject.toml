@@ -1,0 +1,49 @@
+[project]
+name = "health-agent"
+version = "0.1.0"
+description = "Independent health information agent built with LangChain and LangGraph"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.34,<1",
+    "pydantic>=2.12,<3",
+    "pydantic-settings>=2.10,<3",
+    "langchain>=1.3,<2",
+    "langchain-core>=1.4,<2",
+    "langgraph>=1.2,<2",
+    "langchain-openai>=1.2,<2",
+    "langsmith>=0.14,<1",
+    "openai>=2,<3",
+    "httpx>=0.28,<1",
+    "tzdata>=2025.1",
+    "sqlalchemy[asyncio]>=2.0,<3",
+    "aiosqlite>=0.21,<1",
+    "langgraph-checkpoint-sqlite>=3,<4",
+    "langchain-text-splitters>=1,<2",
+    "pypdf>=6,<7",
+    "python-multipart>=0.0.20,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "ruff>=0.14,<1"]
+
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = "-ra --basetemp=.pytest-tmp"
+markers = ["live: explicitly enabled real provider smoke test"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = [".pytest-tmp"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]
